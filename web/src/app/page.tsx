@@ -12,8 +12,6 @@ import {
   Award,
   Utensils,
   MapPin,
-  Heart,
-  Zap,
   Calendar,
   Users,
   CheckCircle,
@@ -21,7 +19,7 @@ import {
   Menu,
   X
 } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 const PHONE_E164 = "+254703638425";
 const PHONE_DISPLAY = "+254 703 638 425";
@@ -939,8 +937,8 @@ export default function Home() {
               </div>
               
               <p className="text-gray-700 text-lg mb-6 italic leading-relaxed">
-                "{testimonials[activeTestimonial].comment}"
-              </p>
+  &ldquo;{testimonials[activeTestimonial].comment}&rdquo;
+</p>
               
               <div className="flex items-center justify-between">
                 <div>
@@ -978,7 +976,9 @@ export default function Home() {
                     <Star key={star} className="h-4 w-4 fill-amber-400 text-amber-400" />
                   ))}
                 </div>
-                <p className="text-gray-600 text-sm mb-3 line-clamp-3">"{testimonial.comment}"</p>
+                <p className="text-gray-600 text-sm mb-3 line-clamp-3">
+  &ldquo;{testimonial.comment}&rdquo;
+</p>
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="font-semibold text-gray-800 text-sm">{testimonial.name}</div>
