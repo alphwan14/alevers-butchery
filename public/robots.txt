@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://alevers-butchery.vercel.app/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Allow Googlebot specifically
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Crawl-delay: 1

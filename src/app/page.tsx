@@ -20,6 +20,12 @@ import {
   X
 } from "lucide-react";
 import { useState } from "react";
+<head>
+  <meta name="google-site-verification" content="D9h8qRAfBDA-dhJpE62MgpcCPE4_zqwb3daEgi5VQB0" />
+  <meta name="keywords" content="Voi butchery, Alevers butchery, fresh meat Voi, goat meat, beef, chicken, meat delivery Voi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alevers-butchery.vercel.app/" />
+</head>
 
 const PHONE_E164 = "+254703638425";
 const PHONE_DISPLAY = "+254 703 638 425";
